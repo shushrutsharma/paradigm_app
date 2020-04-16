@@ -4,7 +4,8 @@ import 'package:flutter/widgets.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MaterialApp(
-    home: Paradigm()
+ debugShowCheckedModeBanner: false,
+    home: Paradigm(),
 ));
 
 class Paradigm extends StatefulWidget {
